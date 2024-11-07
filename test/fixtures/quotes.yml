@@ -1,0 +1,18 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# one:
+#   content: MyText
+#   user_id: one
+#
+# two:
+#   content: MyText
+#   user_id: two
+
+# the above is automatic created one which is not valid
+  one:
+    content: MyText
+    user: one  # Reference the 'one' user fixture
+
+  two:
+    content: MyText
+    user: one  # Reference the 'one' user fixture or 'two' if you prefer
