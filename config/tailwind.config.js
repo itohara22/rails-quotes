@@ -13,7 +13,7 @@ module.exports = {
       tan: '#D7BBA8',
       beige: '#BBB09B',
       darkBrown: '#3E2A35',
-      lightBeige: '#E26D5A'
+      orange: '#E26D5A'
       },
     extend: {
       fontFamily: {

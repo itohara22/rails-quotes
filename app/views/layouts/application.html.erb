@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <%= render "layouts/rails_default_head" %>
-  <body>
+  <body class="">
     <%= render "layouts/header" %>
-    <main class="container mx-auto mt-4">
+    <main class="container px-4 mx-auto mt-4">
       <%= yield %>
       <%#this puts image tag link_to will enclose the image in a tag %>
       <%= link_to( image_tag("jojo.png", alt:"jojo", class:"absolute right-0 bottom-0 w-[150px]"),"#") %>
