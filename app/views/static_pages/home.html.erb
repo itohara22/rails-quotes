@@ -1,5 +1,8 @@
 <% provide(:nina,@nina) %>
 <% provide(:title,"Home") %>
 
-<h1>Home</h1>
-<p><%= yield :nina %></p>
+<section class="min-h-full flex flex-col justify-center font-mono">
+  <p class="ml-20 text-7xl">Welcome to</p>
+  <h1 class="text-center text-[15rem] font-semibold leading-none">Quote<span class="text-grey">'ed.</span></h1>
+  <p class="text-center"><%= yield :nina %></p>
+</section>

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <%= render "layouts/rails_default_head" %>
-  <body class="">
+  <body class="bg-white min-h-screen grid grid-rows-[3rem_1fr_2rem]">
     <%= render "layouts/header" %>
-    <main class="container px-4 mx-auto mt-4">
+    <main class="">
       <%= yield %>
       <%#this puts image tag link_to will enclose the image in a tag %>
-      <%= link_to( image_tag("jojo.png", alt:"jojo", class:"absolute right-0 bottom-0 w-[150px]"),"#") %>
+      <%= link_to( image_tag("jojo.png", alt:"jojo", class:"absolute left-0 bottom-0 w-[150px]"),"#") %>
     </main>
+    <%= render "layouts/footer" %>
   </body>
 </html>

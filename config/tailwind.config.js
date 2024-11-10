@@ -9,11 +9,11 @@ module.exports = {
   ],
   theme: {
     colors: {
-      lightPink: '#EFA8B8',
-      tan: '#D7BBA8',
-      beige: '#BBB09B',
-      darkBrown: '#3E2A35',
-      orange: '#E26D5A'
+      darkBlue: "#002642ff",
+      lime: "#ccff00ff",
+      black: "#111111ff",
+      grey: "#333333ff",
+      white: "#f2f2f2ff"
       },
     extend: {
       fontFamily: {
