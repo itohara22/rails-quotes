@@ -6,6 +6,7 @@
     <main class="">
       <%= yield %>
       <%#this puts image tag link_to will enclose the image in a tag %>
+      <%#IMAGE_TAG.. IS EQUIVALENT TO IMAG_TAG("SERC STRING",{ALT:"", CLASS:"",..})%>
       <%= link_to( image_tag("jojo.png", alt:"jojo", class:"absolute left-0 bottom-0 w-[150px]"),"#") %>
     </main>
     <%= render "layouts/footer" %>
